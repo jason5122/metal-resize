@@ -1,0 +1,5 @@
+*.o
+*.d
+Switcher.app/Contents/MacOS/Switcher
+Switcher.app/Contents/Resources/app.icns
+Switcher.app/Contents/_CodeSignature/CodeResources
