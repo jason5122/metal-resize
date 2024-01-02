@@ -1,11 +1,3 @@
-//
-//  Renderer.swift
-//  MetalTest2
-//
-//  Created by Tristan Hume on 2019-06-19.
-//  Copyright © 2019 Tristan Hume. All rights reserved.
-//
-
 import Cocoa
 import MetalKit
 
@@ -21,7 +13,6 @@ class Renderer {
 
         commandQueue = device.makeCommandQueue()!
         do {
-            // let library = device.makeDefaultLibrary()!
             let source = #"""
                 #include <metal_stdlib>
                 using namespace metal;

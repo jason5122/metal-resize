@@ -10,17 +10,9 @@ class WindowController: NSWindowController {
         super.init(window: newWindow)
 
         if let window {
-            let metalView = MetalView(frame: NSRect(origin: CGPoint.zero, size: window.frame.size))
-            let cocoaView = CocoaView()
-            //        let layerView = CocoaView()
-            //        layerView.wantsLayer = true
             let metalLayerView = MetalLayerView(
                 frame: NSRect(origin: CGPoint.zero, size: window.frame.size))
-            let stack = NSStackView(views: [metalView, cocoaView, metalLayerView])
-            stack.orientation = .vertical
-            stack.distribution = .fillEqually
-
-            window.contentView = stack
+            window.contentView = metalLayerView
         }
     }
 

@@ -3,8 +3,7 @@ APP_BUNDLE := $(APP_NAME).app
 APP			   := $(APP_BUNDLE)/Contents/MacOS/$(APP_NAME)
 APP_ICNS	 := $(APP_BUNDLE)/Contents/Resources/app.icns
 
-SWIFT_SRCS = main.swift controller/WindowController.swift util/CustomLog.swift \
-	view/CocoaView.swift view/MetalLayerView.swift view/MetalView.swift model/Renderer.swift
+SWIFT_SRCS = main.swift controller/WindowController.swift view/MetalLayerView.swift model/Renderer.swift
 SRCS = 
 OBJS = $(addsuffix .o,$(basename $(SRCS)))
 DEPS = $(addsuffix .d,$(basename $(SRCS)))
