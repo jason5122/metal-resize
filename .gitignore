@@ -1,5 +1,5 @@
 *.o
 *.d
-Switcher.app/Contents/MacOS/Switcher
-Switcher.app/Contents/Resources/app.icns
-Switcher.app/Contents/_CodeSignature/CodeResources
+MetalResize.app/Contents/MacOS/MetalResize
+MetalResize.app/Contents/Resources/app.icns
+MetalResize.app/Contents/_CodeSignature/CodeResources

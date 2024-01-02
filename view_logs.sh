@@ -1,3 +1,3 @@
 #!/bin/bash
 
-log stream --predicate 'subsystem contains "com.jason.switcher-swift"' --style compact
+log stream --predicate 'subsystem contains "com.jason.metal-resize"' --style compact

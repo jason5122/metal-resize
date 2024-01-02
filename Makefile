@@ -1,4 +1,4 @@
-APP_NAME	 := Switcher
+APP_NAME	 := MetalResize
 APP_BUNDLE := $(APP_NAME).app
 APP			   := $(APP_BUNDLE)/Contents/MacOS/$(APP_NAME)
 APP_ICNS	 := $(APP_BUNDLE)/Contents/Resources/app.icns

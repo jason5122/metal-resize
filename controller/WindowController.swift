@@ -27,7 +27,7 @@ class WindowController: NSWindowController {
     func showWindow() {
         if let window {
             window.center()
-            window.setFrameAutosaveName("switcher-swift")
+            window.setFrameAutosaveName("metal-resize")
             window.makeKeyAndOrderFront(nil)
             NSApp.activate(ignoringOtherApps: true)
         }

@@ -1,6 +1,6 @@
-# Switcher
+# MetalResize
 
-A small demo of screen capture, branched off of [Apple's ScreenCaptureKit sample][1]. This is intended to be used to implement a task switcher.
+A small demo of smooth resizing with Metal, branched off of [trishume/MetalTest][1].
 
 ## Building
 
@@ -8,7 +8,7 @@ Before building, replace the codesigning identity (40 hexadecimal digits) in the
 
 ```
 make
-open Switcher.app
+open MetalResize.app
 ```
 
-[1]: https://developer.apple.com/documentation/screencapturekit/capturing_screen_content_in_macos
+[1]: https://github.com/trishume/MetalTest
