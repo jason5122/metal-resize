@@ -88,7 +88,6 @@ class Renderer {
         encoder.setRenderPipelineState(pipelineState)
         encoder.drawPrimitives(type: .triangle, vertexStart: 0, vertexCount: 3)
         encoder.endEncoding()
-
         return commandBuffer
     }
 }
